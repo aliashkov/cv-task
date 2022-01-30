@@ -1,0 +1,331 @@
+body {
+  background-image: url(/images/fon.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.modal__window {
+  margin-top: 3%;
+  margin-left: 25%;
+  width: 60%;
+  height: 100%;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.left__sideinfo {
+  background-color: rgb(43, 81, 151);
+  color: #fff;
+  font-size: 130%;
+}
+
+.photo {
+  margin: 10% 20%;
+  width: 200px;
+  height: 200px;
+}
+
+.left__sideinfo .side__headers {
+  text-align: center;
+  background-color: rgb(16, 43, 95);
+  font-size: 110%;
+  padding: 3% 0;
+}
+
+ul li {
+  margin: 3% 0;
+}
+
+.right__sideinfo {
+  background-color: #fff;
+}
+
+.name__header {
+  text-align: left;
+  font-size: 250%;
+  font-weight: bold;
+  margin: 20px 0 20px 20px;
+}
+
+.right__sideinfo .side__headers {
+  text-align: left;
+  font-size: 200%;
+  font-weight: bold;
+  margin: 10px 10px 10px 20px;
+}
+
+.side__text {
+  font-size: 20px;
+  margin: 0 10px 0 20px;
+}
+
+.git {
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.git__ref__small {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(23, 71, 182);
+}
+
+.git__ref__small:hover {
+  color: rgb(98, 139, 236);
+}
+
+.git__ref__big {
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(23, 71, 182);
+}
+
+.git__ref__big:hover {
+  color: rgb(98, 139, 236);
+}
+
+
+
+
+@media (min-width: 1600px) {
+  .modal__window {
+    width: 50%;
+  }
+}
+
+@media (min-width: 2000px) {
+  .modal__window {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .left__sideinfo {
+    background-color: rgb(43, 81, 151);
+    color: #fff;
+    font-size: 110%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .photo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .right__sideinfo .side__headers {
+    font-size: 150%;
+  }
+
+  .name__header {
+    font-size: 200%;
+  }
+
+  .side__text {
+    font-size: 15px;
+  }
+
+  .git {
+    font-size: 25px;
+  }
+
+  .git__ref__big {
+    font-size: 20px;
+  }
+
+  .git__ref__small {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .left__sideinfo {
+    background-color: rgb(43, 81, 151);
+    color: #fff;
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 950px) {
+  .code {
+    font-size: 12px;
+  }
+
+  .left__sideinfo {
+    font-size: 75%;
+  }
+
+  .photo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .right__sideinfo .side__headers {
+    font-size: 100%;
+  }
+
+  .name__header {
+    font-size: 150%;
+  }
+
+  .side__text {
+    font-size: 12px;
+  }
+
+  .git {
+    font-size: 20px;
+  }
+
+  .git__ref__big {
+    font-size: 15px;
+  }
+
+  .git__ref__small {
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 850px) {
+  .left__sideinfo {
+    font-size: 70%;
+  }
+
+  .right__sideinfo .side__headers {
+    font-size: 100%;
+    margin-left: 10px;
+  }
+
+  .name__header {
+    font-size: 150%;
+    margin-left: 10px;
+  }
+
+  .side__text {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .git {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 670px) {
+  .photo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .left__sideinfo {
+    font-size: 50%;
+  }
+
+  .right__sideinfo .side__headers {
+    font-size: 80%;
+  }
+
+  .name__header {
+    font-size: 100%;
+    margin-left: 10px;
+  }
+
+  .side__text {
+    font-size: 8px;
+    margin-left: 10px;
+  }
+
+  .git {
+    font-size: 15px;
+  }
+
+  .git__ref__big {
+    font-size: 10px;
+    margin-left: 2px;
+  }
+
+  .git__ref__small {
+    font-size: 8px;
+    margin-left: 1px;
+  }
+}
+
+@media (max-width: 520px) {
+  .photo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .left__sideinfo {
+    font-size: 30%;
+  }
+
+  ul {
+    padding-inline-start: 15px;
+  }
+
+  .right__sideinfo .side__headers {
+    font-size: 60%;
+  }
+
+  .name__header {
+    font-size: 80%;
+    margin-left: 10px;
+  }
+
+  .side__text {
+    font-size: 5px;
+    margin-left: 10px;
+  }
+
+  .git {
+    font-size: 10px;
+  }
+
+  .git__ref__big {
+    font-size: 8px;
+    margin-left: 0;
+  }
+
+  .git__ref__small {
+    font-size: 6px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .photo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name__header {
+    font-size: 80%;
+    margin-left: 7px;
+  }
+
+  .side__text {
+    font-size: 6px;
+    margin-left: 7px;
+  }
+
+  .git {
+    font-size: 7px;
+  }
+
+  .git__ref__big {
+    font-size: 6px;
+    margin-left: 0;
+  }
+
+  .git__ref__small {
+    font-size: 5px;
+    margin-left: 0;
+  }
+}
